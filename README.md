@@ -1,3 +1,5 @@
+<img align="right" width="100" height="100" src="images/upenn_logo.png">
+
 ## Background
 
 In 2015 we asked ourselves why there was no available, deployable way
@@ -6,14 +8,16 @@ to run real Linux software deterministically.  Here,
 software produce the same output bytes. We thus set out to create
 user-space deterministic execution sandboxes.
 
+## Research Project
+
 ### Detflow
 
 Our first prototype, called DetFlow was described in a paper at
 OOPSLA'17 [[1]](#oopsla).  DetFlow uses a mix of language-support and
 runtime sandboxing to achieve an end-to-end determinism guarantee.
 
- * DetFlow is available [on GitHub here](https://github.com/iu-parfunc/detflow/).
- * The OOPSLA paper's artifact is available [from the ACM DL here](https://dl.acm.org/citation.cfm?doid=3152284.3133897), under "Source Materials" -> "APPENDICES and SUPPLEMENTS" -> "Auxiliary Archive". It's a 5GB download.
+ * DetFlow is [available on GitHub](https://github.com/iu-parfunc/detflow/).
+ * The OOPSLA paper's artifact is available [from the ACM DL here](https://dl.acm.org/citation.cfm?doid=3152284.3133897), under "Source Materials","Auxiliary Archive". It is a 5GB download.
 
 ### DetTrace
 
