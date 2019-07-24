@@ -52,7 +52,16 @@ The deterministic workflows project follows from several years of research on de
 
 In this work, we looked at enforcing determinism *without* requiring source-level changes to programs, instead allowing ourselves to freely change the operating system, compiler, and even computer architecture.  Representive papers include Eurosys'15, and ASPLOS'10,11 [[6,7,8]](#references). Research of this kind serves to show what is possible, while the emphasis of the deterministic workflows project is to emphasize deployable user-space solutions that achieve end-to-end determinism on existing computers and operating systems.
 
-### References
+## People
+
+ * Baojun Wang
+ * Kelly Renee Shiptoski
+ * Joseph Luke Devietti ![Joe Devietti headshot](images/devietti_headshot.jpg)
+ * Omar Salvador Navarro Leija 
+ * Ryan Rhodes Newton ![Ryan Newton headshot](images/newton_headshot.jpg)
+ * Ryan Glenn Scott 
+
+## References
 
  1. (**OOPSLA'17**) ["Monadic Composition for Deterministic, Parallel Batch Processing"](https://2017.splashcon.org/event/splash-2017-oopsla-detflow-a-monad-for-deterministic-parallel-shell-scripting), R Scott, O Navarro Leija, J Devietti, and R Newton, ACM SIGPLAN conference on Object-oriented Programming, Systems, Languages and Applications.
 
