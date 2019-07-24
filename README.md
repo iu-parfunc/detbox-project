@@ -28,7 +28,9 @@ A preprint for DetTrace will be posted here soon.
 
 ## Commercialization
 
-The detbox approach is being commercialized by [Cloudseal Inc](https://cloudseal.io).  Cloudseal is building low-overhead record-and-replay-as-a-service, for bug and crash reproduction. The core of the approach is a deterministic execution capability that minimizes the amount of recording needed, and eliminates unnecessary nondeterminism, which leads to things like flaky tests. (In the production implementation of the approach, binary instrumentation is used to avoid ptrace and achieve both the low overhead of DetFlow and the generality of DetTrace.)
+The detbox approach is being commercialized by [Cloudseal Inc](https://cloudseal.io).  Cloudseal is building low-overhead record-and-replay-as-a-service (for bug and crash repro). The core of the approach is a deterministic execution capability that *minimizes* the amount of recording needed, and eliminates unnecessary nondeterminism, nondeterminism which creates headaches like flaky tests.
+
+(In this third generation, production implementation of the approach, binary instrumentation is used to avoid ptrace and achieve both the low overhead of DetFlow and the generality of DetTrace.)
 
 ## Related and Prior Work
 
@@ -42,11 +44,13 @@ Believe it or not, in spite of decades of work on binary instrumentation and mec
 
 The basic idea of our approach is to avoid both the high startup overhead of full binary translation approaches (Pin, DynamoRIO) and avoid the high cost of trap instructions in breakpoint-based tracing frameorks (DTrace, SystemTap, etc).  This is done by patching guest process code in-place and injecting new code in the guest, but a fully general and performant solution requires solving a number of challenges (see the PLDI papers linked below).
 
-
 **Deterministic Libraries and Languages**:
+
+The deterministic workflows project follows from several years of research on deterministic parallel programming, mainly using Haskell as a vehicle (though other projects target other languages, like [Deterministic Parallel Java](http://dpj.cs.illinois.edu/)). An example system our work in this area is the LVish system for programming with monotonic concurrent data structures [[4,5]](#references).
 
 **Deterministic Operating Systems**:
 
+<Coming soon>
 
 ### References
 
@@ -55,5 +59,9 @@ The basic idea of our approach is to avoid both the high startup overhead of ful
 
  2. (**PLDI'16**) ["Living on the edge: Rapid-toggling probes with cross modification on x86"](https://dl.acm.org/citation.cfm?id=3062344), B Chamith, B Svensson, L Dalessandro, R Newton. ACM SIGPLAN conference on Programming Language Design and Implementation.
 
- 3. (**PLDI'17**) ["Instruction Punning: Lightweight Instrumentation for x86-64"](https://dl.acm.org/citation.cfm?id=2908084), Buddhika Chamith, Bo Joel Svensson, Luke Dalessandro, Ryan Newton. ACM SIGPLAN conference on Programming Language Design and Implementation.
+ 3. (**PLDI'17**) ["Instruction Punning: Lightweight Instrumentation for x86-64"](https://dl.acm.org/citation.cfm?id=2908084), B Chamith, B Svensson, L Dalessandro, R Newton. ACM SIGPLAN conference on Programming Language Design and Implementation.
 
+ 4. (**POPL'14**) ["Freeze After Writing: Quasi-Deterministic Parallel Programming with LVars and Handlers"](https://dl.acm.org/citation.cfm?doid=2535838.2535842), L Kuper, A Turon, N Krishnaswami, R Newton. ACM SIGPLAN Principals of Programming Languages.
+ 
+ 5. (**PLDI'14**) ["Taming the Parallel Effect Zoo: Extensible Deterministic Parallelism with LVish"](https://dl.acm.org/citation.cfm?id=2594312), L Kuper, A Todd, S Tobin-Hochstadt, R Newton. ACM SIGPLAN Programming
+Languages Design and Implementation.
