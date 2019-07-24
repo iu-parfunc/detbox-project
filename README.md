@@ -64,6 +64,9 @@ In this work, we looked at enforcing determinism *without* requiring source-leve
  * [Ryan Glenn Scott](https://ryanglscott.github.io/about/)
 
 
+ ( a | b )
+
+ |                                            |
  | :----------------------------------------: |
  | <img width="64" src="images/devietti_headshot.jpg">  |  [Joseph Luke Devietti](https://www.cis.upenn.edu/~devietti/)  |
  | :----------------------------------------: |
