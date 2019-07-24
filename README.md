@@ -1,7 +1,8 @@
 
 ![UPenn Logo](images/upenn_logo.png)
 
-<img align="right" src="images/upenn_logo.png">
+<img align="left" width="300" src="images/upenn_logo.png">
+<img align="right" width="300" src="images/upenn_logo.png">
 
 
 ## Background
