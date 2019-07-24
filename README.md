@@ -1,5 +1,5 @@
 
-<img align="right" width="250" src="images/upenn_logo.png">
+<img align="right" width="250" src="images/combined_logos.png">
 
 ## Background
 
@@ -8,8 +8,6 @@ to run real Linux software deterministically.  Here,
 *deterministically* simply means that the same bytes of input to the
 software produce the same output bytes. We thus set out to create
 user-space deterministic execution sandboxes.
-
-<img align="right" width="120" src="images/iu_logo.png">
 
 ## Research Project
 
