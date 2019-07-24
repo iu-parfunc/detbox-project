@@ -67,8 +67,8 @@ In this work, we looked at enforcing determinism *without* requiring source-leve
    b | c
 
 
-   d | e
-   <img width="64" src="images/devietti_headshot.jpg"> | <img width="64" src="images/devietti_headshot.jpg">
+   [Joseph Devietti](https://www.cis.upenn.edu/~devietti/) | [Ryan Newton](https://www.linkedin.com/in/rrnewton/)
+   <img width="64" src="images/devietti_headshot.jpg"> | <img width="64" src="images/newton_headshot.jpg">
 
 
  | :------: | :-------: |
