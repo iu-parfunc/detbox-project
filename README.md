@@ -7,7 +7,7 @@ Achieving determinism on real software systems remains difficult. Even a batch-p
 
 ## Research Project
 
-In 2015 we asked ourselves why there was no available, deployable way to run real Linux software deterministically. We thus set out to create user-space deterministic execution sandboxes.  This project follows from our [prior work](#related-and-prior-work) on deterministic parallel programming, which we addressed at the [language- and library-level](#deterministic-libraries-and-languages) as well as [in the operating system](#deterministic-operating-systems).
+In 2015 we asked ourselves why there was no available, deployable way to run real Linux software deterministically. We thus set out to create user-space deterministic execution sandboxes.  This project follows from our [prior work](#related-and-prior-work) on deterministic parallel programming, which we addressed at the [language- and library-level](#deterministic-libraries-and-languages) as well as [in the operating system and computer architecture](#deterministic-operating-systems-and-architectures).
 
 ### Detflow
 
