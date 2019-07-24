@@ -1,9 +1,9 @@
 
 <img align="right" width="250" src="images/upenn_logo.png">
 
-<img align="right" width="150" src="images/iu_logo.png">
-
 ## Background
+
+<img align="right" width="150" src="images/iu_logo.png">
 
 In 2015 we asked ourselves why there was no available, deployable way
 to run real Linux software deterministically.  Here,
