@@ -1,4 +1,4 @@
 theme: jekyll-theme-modernist
 github:
   is_project_page: false
-
+  repository_url: https://github.com/iu-parfunc/detflow
