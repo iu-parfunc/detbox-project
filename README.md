@@ -1,5 +1,5 @@
 
-![UPenn Logo]("images/upenn_logo.png")
+![UPenn Logo](images/upenn_logo.png)
 
 <img align="right" src="images/upenn_logo.png">
 
