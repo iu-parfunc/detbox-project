@@ -16,7 +16,7 @@ user-space deterministic execution sandboxes.
 ### Detflow
 
 Our first prototype, called DetFlow was described in a paper at
-OOPSLA'17 [[1]](#oopsla).  DetFlow uses a mix of language-support and
+OOPSLA'17 [[1]](#references).  DetFlow uses a mix of language-support and
 runtime sandboxing to achieve an end-to-end determinism guarantee.
 
  * DetFlow is [available on GitHub](https://github.com/iu-parfunc/detflow/).
@@ -29,16 +29,19 @@ Our second prototype
 
 ## Commercialization
 
-The approach developed in the detbox project is being commercialized
-by [Cloudseal Inc](https://cloudseal.io).  Cloudseal is developing
-low-overhead record-and-replay-as-a-service, but the core is a
-deterministic execution capability that minimizes the amount of
-recording needed.
+The detbox approach is being commercialized by [Cloudseal
+Inc](https://cloudseal.io).  Cloudseal is building low-overhead
+record-and-replay-as-a-service, for bug and crash reproduction, but
+the core is a deterministic execution capability that minimizes the
+amount of recording needed, and eliminates unnecessary nondeterminism,
+which leads to things like flaky tests.
 
 ### References
 
 <a name="oopsla"></a>
- 1. R. G. Scott, O. S. Navarro Leija, J. Devietti, and R. R. Newton. ["Monadic Composition for Deterministic, Parallel Batch Processing"](https://2017.splashcon.org/event/splash-2017-oopsla-detflow-a-monad-for-deterministic-parallel-shell-scripting), OOPSLA 2017.
+ 1. (OOPSLA'17) ["Monadic Composition for Deterministic, Parallel Batch Processing"](https://2017.splashcon.org/event/splash-2017-oopsla-detflow-a-monad-for-deterministic-parallel-shell-scripting), R Scott, O Navarro Leija, J Devietti, and R Newton, ACM SIGPLAN conference on Object-oriented Programming, Systems, Languages and Applications.
 
+ 2. (PLDI'16) ["Living on the edge: Rapid-toggling probes with cross modification on x86"](https://dl.acm.org/citation.cfm?id=3062344), B Chamith, B Svensson, L Dalessandro, R Newton. ACM SIGPLAN conference on Programming Language Design and Implementation.
 
-<a name="chapter-1"></a>
+ 3. (PLDI'17) ["Instruction Punning: Lightweight Instrumentation for x86-64"](https://dl.acm.org/citation.cfm?id=2908084), Buddhika Chamith, Bo Joel Svensson, Luke Dalessandro, Ryan Newton. ACM SIGPLAN conference on Programming Language Design and Implementation.
+
