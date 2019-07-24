@@ -63,6 +63,12 @@ In this work, we looked at enforcing determinism *without* requiring source-leve
    [Ryan Rhodes Newton](https://www.linkedin.com/in/rrnewton/)
  * [Ryan Glenn Scott](https://ryanglscott.github.io/about/)
 
+
+ | :----------------------------------------: |
+ | <img width="64" src="images/devietti_headshot.jpg">  |  [Joseph Luke Devietti](https://www.cis.upenn.edu/~devietti/)  |
+ | :----------------------------------------: |
+
+
 ## References
 
  1. (**OOPSLA'17**) ["Monadic Composition for Deterministic, Parallel Batch Processing"](https://2017.splashcon.org/event/splash-2017-oopsla-detflow-a-monad-for-deterministic-parallel-shell-scripting), R Scott, O Navarro Leija, J Devietti, and R Newton, ACM SIGPLAN conference on Object-oriented Programming, Systems, Languages and Applications.
