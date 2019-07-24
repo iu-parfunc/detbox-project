@@ -1,9 +1,8 @@
 # theme: jekyll-theme-modernist
 theme: jekyll-theme-slate
-title: "Deterministic Workflows Project"
+title: "Deterministic Workflows"
+description: "A collaboration between UPenn & Indiana University."
 github:
   is_project_page: false
   is_user_page: false
   repository_url: https://github.com/iu-parfunc/detbox-project
-  project_title: "Deterministic Workflows Project"
-  project_tagline: "TEST TEXT"
