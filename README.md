@@ -3,13 +3,13 @@
 
 ## Background
 
-<img align="right" width="120" src="images/iu_logo.png">
-
 In 2015 we asked ourselves why there was no available, deployable way
 to run real Linux software deterministically.  Here,
 *deterministically* simply means that the same bytes of input to the
 software produce the same output bytes. We thus set out to create
 user-space deterministic execution sandboxes.
+
+<img align="right" width="120" src="images/iu_logo.png">
 
 ## Research Project
 
