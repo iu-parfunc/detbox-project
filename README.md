@@ -20,7 +20,7 @@ OOPSLA'17 [[1]](#references).  DetFlow uses a mix of language-support and
 runtime sandboxing to achieve an end-to-end determinism guarantee.
 
  * DetFlow is [available on GitHub](https://github.com/iu-parfunc/detflow/).
- * The OOPSLA paper's artifact is available [from the ACM DL here](https://dl.acm.org/citation.cfm?doid=3152284.3133897), under "Source Materials","Auxiliary Archive". It is a 5GB download.
+ * The OOPSLA paper's artifact is available [from the ACM DL](https://dl.acm.org/citation.cfm?doid=3152284.3133897), under "Source Materials","Auxiliary Archive". It is a 5GB download.
 
 ### DetTrace
 
@@ -39,9 +39,9 @@ which leads to things like flaky tests.
 ### References
 
 <a name="oopsla"></a>
- 1. (OOPSLA'17) ["Monadic Composition for Deterministic, Parallel Batch Processing"](https://2017.splashcon.org/event/splash-2017-oopsla-detflow-a-monad-for-deterministic-parallel-shell-scripting), R Scott, O Navarro Leija, J Devietti, and R Newton, ACM SIGPLAN conference on Object-oriented Programming, Systems, Languages and Applications.
+ 1. (**OOPSLA'17**) ["Monadic Composition for Deterministic, Parallel Batch Processing"](https://2017.splashcon.org/event/splash-2017-oopsla-detflow-a-monad-for-deterministic-parallel-shell-scripting), R Scott, O Navarro Leija, J Devietti, and R Newton, ACM SIGPLAN conference on Object-oriented Programming, Systems, Languages and Applications.
 
- 2. (PLDI'16) ["Living on the edge: Rapid-toggling probes with cross modification on x86"](https://dl.acm.org/citation.cfm?id=3062344), B Chamith, B Svensson, L Dalessandro, R Newton. ACM SIGPLAN conference on Programming Language Design and Implementation.
+ 2. (**PLDI'16**) ["Living on the edge: Rapid-toggling probes with cross modification on x86"](https://dl.acm.org/citation.cfm?id=3062344), B Chamith, B Svensson, L Dalessandro, R Newton. ACM SIGPLAN conference on Programming Language Design and Implementation.
 
- 3. (PLDI'17) ["Instruction Punning: Lightweight Instrumentation for x86-64"](https://dl.acm.org/citation.cfm?id=2908084), Buddhika Chamith, Bo Joel Svensson, Luke Dalessandro, Ryan Newton. ACM SIGPLAN conference on Programming Language Design and Implementation.
+ 3. (**PLDI'17**) ["Instruction Punning: Lightweight Instrumentation for x86-64"](https://dl.acm.org/citation.cfm?id=2908084), Buddhika Chamith, Bo Joel Svensson, Luke Dalessandro, Ryan Newton. ACM SIGPLAN conference on Programming Language Design and Implementation.
 
