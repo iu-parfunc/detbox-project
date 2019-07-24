@@ -8,17 +8,16 @@ user-space deterministic execution sandboxes.
 
 ### Detflow
 
-Our first prototype, called DetFlow
+Our first prototype, called DetFlow was described in a paper at
+OOPSLA'17 [[1]](#oopsla).  DetFlow uses a mix of language-support and
+runtime sandboxing to achieve an end-to-end determinism guarantee.
 
-was described in a paper at OOPSLA'17 [[1]](#oopsla).
-
-is available [on GitHub here](https://github.com/iu-parfunc/detflow/)
-
-
-
-
+ * DetFlow is available [on GitHub here](https://github.com/iu-parfunc/detflow/).
+ * The OOPSLA paper's artifact is available [from the ACM DL here](https://dl.acm.org/citation.cfm?doid=3152284.3133897), under "Source Materials" -> "APPENDICES and SUPPLEMENTS" -> "Auxiliary Archive". It's a 5GB download.
 
 ### DetTrace
+
+Our second prototype
 
 
 ## Commercialization
