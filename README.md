@@ -1,7 +1,7 @@
 
-<img align="left" width="280" src="images/upenn_logo.png">  <img align="right" width="280" src="images/iu_logo.png">
+<img align="right" width="250" src="images/upenn_logo.png">
 
---------------------------------------------------------------------------------
+<img align="right" width="150" src="images/iu_logo.png">
 
 ## Background
 
