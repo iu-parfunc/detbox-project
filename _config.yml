@@ -1,5 +1,5 @@
 # theme: jekyll-theme-modernist
-theme: jekyll-theme-hacker
+theme: jekyll-theme-slate
 title: "Deterministic Workflows Project"
 github:
   is_project_page: false
