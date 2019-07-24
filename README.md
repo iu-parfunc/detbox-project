@@ -1,5 +1,5 @@
 
-<img align="right" width="250" src="images/combined_logos.png">
+<img align="right" width="200" src="images/combined_logos.png">
 
 ## Background
 
