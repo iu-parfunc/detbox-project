@@ -56,9 +56,11 @@ In this work, we looked at enforcing determinism *without* requiring source-leve
 
  * Baojun Wang
  * Kelly Renee Shiptoski
- * ![Joe Devietti headshot](images/devietti_headshot.jpg | width = 64) Joseph Luke Devietti
+ * <img width="64" src="images/devietti_headshot.jpg">
+   Joseph Luke Devietti
  * Omar Salvador Navarro Leija 
- * ![Ryan Newton headshot](images/newton_headshot.jpg | width = 64) Ryan Rhodes Newton
+ * <img width="64" src="images/newton_headshot.jpg">
+   Ryan Rhodes Newton
  * Ryan Glenn Scott 
 
 ## References
