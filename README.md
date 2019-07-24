@@ -56,9 +56,9 @@ In this work, we looked at enforcing determinism *without* requiring source-leve
 
  * [Baojun Wang](https://www.linkedin.com/in/wangbj)
  * [Kelly Renee Shiptoski](https://www.linkedin.com/in/kelly-shiptoski-a003585b/)
- * <img width="64" src="images/devietti_headshot.jpg"> [Joseph Luke Devietti](https://www.cis.upenn.edu/~devietti/)
+ * [Joseph Luke Devietti](https://www.cis.upenn.edu/~devietti/)
  * [Omar Salvador Navarro Leija](https://gatowololo.github.io/)
- * [Ryan Rhodes Newton](https://www.linkedin.com/in/rrnewton/) <img width="64" src="images/newton_headshot.jpg">
+ * [Ryan Rhodes Newton](https://www.linkedin.com/in/rrnewton/) 
  * [Ryan Glenn Scott](https://ryanglscott.github.io/about/)
 
 
@@ -71,11 +71,10 @@ In this work, we looked at enforcing determinism *without* requiring source-leve
    f | g 
 
 
- |                                            |
- | :----------------------------------------: |
+ |          |           |
+ | :------: | :-------: |
  | <img width="64" src="images/devietti_headshot.jpg"> | [Joseph Luke Devietti](https://www.cis.upenn.edu/~devietti/) |
  | <img width="64" src="images/newton_headshot.jpg"> | [Ryan Rhodes Newton](https://www.linkedin.com/in/rrnewton/) | 
- | :----------------------------------------: |
 
 
 ## References
