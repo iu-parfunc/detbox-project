@@ -30,13 +30,18 @@ A preprint for DetTrace will be posted here soon.
 
 The detbox approach is being commercialized by [Cloudseal Inc](https://cloudseal.io).  Cloudseal is building low-overhead record-and-replay-as-a-service, for bug and crash reproduction. The core of the approach is a deterministic execution capability that minimizes the amount of recording needed, and eliminates unnecessary nondeterminism, which leads to things like flaky tests. (In the production implementation of the approach, binary instrumentation is used to avoid ptrace and achieve both the low overhead of DetFlow and the generality of DetTrace.)
 
-### Related and Prior Work
+## Related and Prior Work
 
-**Binary Instrumentation**:
+#### Binary Instrumentation
 
+Believe it or not, in spite of decades of work on binary instrumentation and mechanisms for hooking functions or syscalls, we've had to develop new techniques for low-overhead interposition on Linux system calls and nondeterministic instructions.  Part of the reason for this is needing an all-userspace approach.
 
-[[2]](#references)
-[[3]](#references)
+ * One chapter of our work on binary instrumentation was to develope rapidly-toggleable, low-overhead user-space probes, presented in our PLDI 2016 and 2017 publications [[2,3]](#references).
+
+ * The **Reverie system** is an open-source instrumentation framework we are developing, [available on GitHub](https://github.com/iu-parfunc/reverie).
+
+The basic idea of our approach is to avoid both the high startup overhead of full binary translation approaches (Pin, DynamoRIO) and avoid the high cost of trap instructions in breakpoint-based tracing frameorks (DTrace, SystemTap, etc).  This is done by patching guest process code in-place and injecting new code in the guest, but a fully general and performant solution requires solving a number of challenges (see the PLDI papers linked below).
+
 
 **Deterministic Libraries and Languages**:
 
