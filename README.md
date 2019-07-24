@@ -48,9 +48,9 @@ The basic idea of our approach is to avoid both the high startup overhead of ful
 
 The deterministic workflows project follows from several years of research on deterministic parallel programming, mainly using Haskell as a vehicle (though other projects target other languages, like [Deterministic Parallel Java](http://dpj.cs.illinois.edu/)). An example system our work in this area is the LVish system for programming with monotonic concurrent data structures [[4,5]](#references).
 
-#### Deterministic Operating Systems
+#### Deterministic Operating Systems and Architectures
 
-(Coming soon)
+In this work, we looked at enforcing determinism *without* requiring source-level changes to programs, instead allowing ourselves to freely change the operating system, compiler, and even computer architecture.  Representive papers include Eurosys'15, and ASPLOS'10,11 [[6,7,8]](#references). Research of this kind serves to show what is possible, while the emphasis of the deterministic workflows project is to emphasize deployable user-space solutions that achieve end-to-end determinism on existing computers and operating systems.
 
 ### References
 
@@ -63,3 +63,15 @@ The deterministic workflows project follows from several years of research on de
  4. (**POPL'14**) ["Freeze After Writing: Quasi-Deterministic Parallel Programming with LVars and Handlers"](https://dl.acm.org/citation.cfm?doid=2535838.2535842), L Kuper, A Turon, N Krishnaswami, R Newton. ACM SIGPLAN Principals of Programming Languages.
  
  5. (**PLDI'14**) ["Taming the Parallel Effect Zoo: Extensible Deterministic Parallelism with LVish"](https://dl.acm.org/citation.cfm?id=2594312), L Kuper, A Todd, S Tobin-Hochstadt, R Newton. ACM SIGPLAN Programming Languages Design and Implementation.
+
+ 6. (**Eurosys'15**) ["High-Performance Determinism with Total Store Order Consistency"](http://dl.acm.org/authorize?N95410), T Merrifield, J Devietti and J Eriksson. European Conference on Computer Systems.
+
+ 7. (**ASPLOS'11**) ["RCDC: A Relaxed-Consistency Deterministic Computer"](http://dl.acm.org/authorize?473781), J Devietti, J Nelson, T Bergan, L Ceze and D Grossman. International Conference on Architectural Support for Programming Languages & Operating Systems.
+
+ 8. (**ASPLOS'10**) ["CoreDet: A Compiler and Runtime System for Deterministic Multithreaded Execution"](http://dl.acm.org/authorize?218419). T Bergan, O Anderson, J Devietti, L Ceze and D Grossman. International Conference on Architectural Support for Programming Languages & Operating Systems.
+
+
+
+
+
+
