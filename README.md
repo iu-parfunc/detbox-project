@@ -54,7 +54,7 @@ In this work, we looked at enforcing determinism *without* requiring source-leve
 
 ## People
 
-<table align="center" style="margin: 0px auto;">
+<table align="center" style="margin: 0px auto;" border="0">
   <tbody>
     <tr>
       <td><img width="99" src="images/wang_headshot.jpg" /></td>
