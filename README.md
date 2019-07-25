@@ -58,8 +58,8 @@ In this work, we looked at enforcing determinism *without* requiring source-leve
  * [Kelly Renee Shiptoski](https://www.linkedin.com/in/kelly-shiptoski-a003585b/)
  * [Joseph Luke Devietti](https://www.cis.upenn.edu/~devietti/)
  * [Omar Salvador Navarro Leija](https://gatowololo.github.io/)
- * [Ryan Rhodes Newton](https://www.linkedin.com/in/rrnewton/) 
- * [Ryan Glenn Scott](https://ryanglscott.github.io/about/)
+ * [Ryan Rhodes Newton](https://www.linkedin.com/in/rrnewton/)
+ * [Ryan Scott](https://ryanglscott.github.io/about/)
 
 
    | :------: | :-------: |
@@ -69,7 +69,7 @@ In this work, we looked at enforcing determinism *without* requiring source-leve
 
  | :------: | :-------: |
  | <img width="64" src="images/devietti_headshot.jpg"> | [Joseph Luke Devietti](https://www.cis.upenn.edu/~devietti/) |
- | <img width="64" src="images/newton_headshot.jpg"> | [Ryan Rhodes Newton](https://www.linkedin.com/in/rrnewton/) | 
+ | <img width="64" src="images/newton_headshot.jpg"> | [Ryan Rhodes Newton](https://www.linkedin.com/in/rrnewton/) |
 
 
 ## References
@@ -81,7 +81,7 @@ In this work, we looked at enforcing determinism *without* requiring source-leve
  3. (**PLDI'17**) ["Instruction Punning: Lightweight Instrumentation for x86-64"](https://dl.acm.org/citation.cfm?id=2908084), B Chamith, B Svensson, L Dalessandro, R Newton. ACM SIGPLAN conference on Programming Language Design and Implementation.
 
  4. (**POPL'14**) ["Freeze After Writing: Quasi-Deterministic Parallel Programming with LVars and Handlers"](https://dl.acm.org/citation.cfm?doid=2535838.2535842), L Kuper, A Turon, N Krishnaswami, R Newton. ACM SIGPLAN Principals of Programming Languages.
- 
+
  5. (**PLDI'14**) ["Taming the Parallel Effect Zoo: Extensible Deterministic Parallelism with LVish"](https://dl.acm.org/citation.cfm?id=2594312), L Kuper, A Todd, S Tobin-Hochstadt, R Newton. ACM SIGPLAN Programming Languages Design and Implementation.
 
  6. (**Eurosys'15**) ["High-Performance Determinism with Total Store Order Consistency"](http://dl.acm.org/authorize?N95410), T Merrifield, J Devietti and J Eriksson. European Conference on Computer Systems.
