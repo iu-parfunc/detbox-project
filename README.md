@@ -54,13 +54,6 @@ In this work, we looked at enforcing determinism *without* requiring source-leve
 
 ## People
 
- * [Baojun Wang](https://www.linkedin.com/in/wangbj)
- * [Kelly Renee Shiptoski](https://www.linkedin.com/in/kelly-shiptoski-a003585b/)
- * [Joseph Luke Devietti](https://www.cis.upenn.edu/~devietti/)
- * [Omar Salvador Navarro Leija](https://gatowololo.github.io/)
- * [Ryan Rhodes Newton](https://www.linkedin.com/in/rrnewton/)
- * [Ryan Scott](https://ryanglscott.github.io/about/)
-
 <center>
 
    | :------: | :-------: | :-------: |
