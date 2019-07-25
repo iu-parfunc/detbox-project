@@ -28,7 +28,9 @@ A preprint for DetTrace will be posted here soon.
 
 ## Commercialization
 
-Our end-to-end userspace determinism approach is being commercialized by [Cloudseal Inc](https://cloudseal.io).  Cloudseal is building low-overhead record-and-replay-as-a-service (for bug and crash repro). The core is a deterministic execution capability that *minimizes* the amount of recording needed, and eliminates unnecessary nondeterminism -- nondeterminism which creates headaches like flaky tests.
+Our end-to-end userspace determinism approach is being commercialized by [Cloudseal Inc](https://cloudseal.io).  
+More discussion of determinism and reproducibility problems can be found [on the blog](https://cloudseal.io/blog).
+Cloudseal is building low-overhead record-and-replay-as-a-service (for bug and crash repro). The core is a deterministic execution capability that *minimizes* the amount of recording needed, and eliminates unnecessary nondeterminism -- nondeterminism which creates headaches like flaky tests.
 
 (In this third generation, production implementation of the approach, binary instrumentation is used to avoid ptrace and achieve both the low overhead of DetFlow and the generality of DetTrace.)
 
