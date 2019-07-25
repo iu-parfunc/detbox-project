@@ -60,6 +60,33 @@ In this work, we looked at enforcing determinism *without* requiring source-leve
   | <img width="99" src="images/leija_headshot.png">    | <img width="99" src="images/newton_headshot.jpg">                        | <img width="99" src="images/scott_headshot.png">     |
   | [Omar Navarro Leija](https://gatowololo.github.io/) | [Ryan Newton](https://www.linkedin.com/in/rrnewton/)                     | [Ryan Scott](https://ryanglscott.github.io/about/)   |
 
+
+<table align="center">
+  <tbody>
+    <tr>
+      <td><img width="75" src="images/wang_headshot.jpg" /></td>
+      <td><img width="75" src="images/shiptoski_headshot.png" /></td>
+      <td><img width="75" src="images/devietti_headshot.jpg" /></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.linkedin.com/in/wangbj">Baojun Wang</a></td>
+      <td><a href="https://www.linkedin.com/in/kelly-shiptoski-a003585b/">Kelly Shiptoski</a></td>
+      <td><a href="https://www.cis.upenn.edu/~devietti/">Joe Devietti</a></td>
+    </tr>
+    <tr>
+      <td><img width="75" src="images/leija_headshot.png" /></td>
+      <td><img width="75" src="images/newton_headshot.jpg" /></td>
+      <td><img width="75" src="images/scott_headshot.png" /></td>
+    </tr>
+    <tr>
+      <td><a href="https://gatowololo.github.io/">Omar Navarro Leija</a></td>
+      <td><a href="https://www.linkedin.com/in/rrnewton/">Ryan Newton</a></td>
+      <td><a href="https://ryanglscott.github.io/about/">Ryan Scott</a></td>
+    </tr>
+  </tbody>
+</table>
+
+
 ## References
 
  1. (**OOPSLA'17**) ["Monadic Composition for Deterministic, Parallel Batch Processing"](https://2017.splashcon.org/event/splash-2017-oopsla-detflow-a-monad-for-deterministic-parallel-shell-scripting), R Scott, O Navarro Leija, J Devietti, and R Newton, ACM SIGPLAN conference on Object-oriented Programming, Systems, Languages and Applications.
