@@ -54,19 +54,12 @@ In this work, we looked at enforcing determinism *without* requiring source-leve
 
 ## People
 
-  |:------:|:-------:|:-------:|
-  | <img width="99" src="images/wang_headshot.jpg">     | <img width="99" src="images/shiptoski_headshot.png">                     | <img width="99" src="images/devietti_headshot.jpg">  |
-  | [Baojun Wang](https://www.linkedin.com/in/wangbj)   | [Kelly Shiptoski](https://www.linkedin.com/in/kelly-shiptoski-a003585b/) | [Joe Devietti](https://www.cis.upenn.edu/~devietti/) |   
-  | <img width="99" src="images/leija_headshot.png">    | <img width="99" src="images/newton_headshot.jpg">                        | <img width="99" src="images/scott_headshot.png">     |
-  | [Omar Navarro Leija](https://gatowololo.github.io/) | [Ryan Newton](https://www.linkedin.com/in/rrnewton/)                     | [Ryan Scott](https://ryanglscott.github.io/about/)   |
-
-
-<table align="center">
+<table align="center" style="margin: 0px auto;">
   <tbody>
     <tr>
-      <td><img width="75" src="images/wang_headshot.jpg" /></td>
-      <td><img width="75" src="images/shiptoski_headshot.png" /></td>
-      <td><img width="75" src="images/devietti_headshot.jpg" /></td>
+      <td><img width="99" src="images/wang_headshot.jpg" /></td>
+      <td><img width="99" src="images/shiptoski_headshot.png" /></td>
+      <td><img width="99" src="images/devietti_headshot.jpg" /></td>
     </tr>
     <tr>
       <td><a href="https://www.linkedin.com/in/wangbj">Baojun Wang</a></td>
@@ -74,9 +67,9 @@ In this work, we looked at enforcing determinism *without* requiring source-leve
       <td><a href="https://www.cis.upenn.edu/~devietti/">Joe Devietti</a></td>
     </tr>
     <tr>
-      <td><img width="75" src="images/leija_headshot.png" /></td>
-      <td><img width="75" src="images/newton_headshot.jpg" /></td>
-      <td><img width="75" src="images/scott_headshot.png" /></td>
+      <td><img width="99" src="images/leija_headshot.png" /></td>
+      <td><img width="99" src="images/newton_headshot.jpg" /></td>
+      <td><img width="99" src="images/scott_headshot.png" /></td>
     </tr>
     <tr>
       <td><a href="https://gatowololo.github.io/">Omar Navarro Leija</a></td>
