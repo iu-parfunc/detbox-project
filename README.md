@@ -54,14 +54,19 @@ In this work, we looked at enforcing determinism *without* requiring source-leve
 
 ## People
 
-  | <img width="75" src="images/wang_headshot.jpg"> | <img width="75" src="images/shiptoski_headshot.png"> | <img width="75" src="images/devietti_headshot.jpg"> |
   |:------:|:-------:|:-------:|
-  | [Baojun Wang](https://www.linkedin.com/in/wangbj) | [Kelly Shiptoski](https://www.linkedin.com/in/kelly-shiptoski-a003585b/) | [Joe Devietti](https://www.cis.upenn.edu/~devietti/) |   
-  | <img width="75" src="images/leija_headshot.png"> | <img width="75" src="images/newton_headshot.jpg"> | <img width="75" src="images/scott_headshot.png"> |
-  | [Omar Navarro Leija](https://gatowololo.github.io/) | [Ryan Newton](https://www.linkedin.com/in/rrnewton/) | [Ryan Scott](https://ryanglscott.github.io/about/) |
+  | <img width="75" src="images/wang_headshot.jpg">     | <img width="75" src="images/shiptoski_headshot.png">                     | <img width="75" src="images/devietti_headshot.jpg">  |
+  | [Baojun Wang](https://www.linkedin.com/in/wangbj)   | [Kelly Shiptoski](https://www.linkedin.com/in/kelly-shiptoski-a003585b/) | [Joe Devietti](https://www.cis.upenn.edu/~devietti/) |   
+  | <img width="75" src="images/leija_headshot.png">    | <img width="75" src="images/newton_headshot.jpg">                        | <img width="75" src="images/scott_headshot.png">     |
+  | [Omar Navarro Leija](https://gatowololo.github.io/) | [Ryan Newton](https://www.linkedin.com/in/rrnewton/)                     | [Ryan Scott](https://ryanglscott.github.io/about/)   |
 
 
   |        |         |         |
+  |:------:|:-------:|:-------:|
+  |        |         |         |
+  |        |         |         |
+
+
   |:------:|:-------:|:-------:|
   |        |         |         |
   |        |         |         |
