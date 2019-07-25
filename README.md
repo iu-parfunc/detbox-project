@@ -22,7 +22,7 @@ In DetFlow, process-parallel programs are allowed if they are controlled by a *p
 
 ### DetTrace
 
-Our second prototype of a runtime determinism sandbox is called, *DetTrace*.  DetTrace uses ptrace and is much more general than DetFlow, but is also higher-overhead.  In case studies, we have run the build and test code for 12,130 Debian packages inside DetTrace, have run large applications like blender and pdflatex inside the deterministic sandbox.
+Our second prototype of a runtime determinism sandbox is called, *DetTrace*.  DetTrace uses ptrace and is much more general than DetFlow, but is also higher-overhead.  In case studies, we have run the build and test code for 12,130 Debian packages inside DetTrace, and have run large applications like `blender` and `pdflatex` inside the deterministic sandbox as well.
 
 A preprint for DetTrace will be posted here soon.
 
